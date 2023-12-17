@@ -4,14 +4,40 @@ This project contains two Python scripts for managing photos stored in iCloud: o
 
 ## Installation
 
-Before running the scripts, you need to install the required dependencies.
+### Setting up a Virtual Environment (Optional but Recommended)
+
+Before installing the dependencies, you can set up a virtual environment. This keeps the project's libraries separate from your global Python environment.
+
+1. Create a virtual environment:
+
+python -m venv env
+
+
+2. Activate the virtual environment:
+
+- On Windows:
+
+  ```
+  env\Scripts\activate
+  ```
+
+- On Unix or MacOS:
+
+  ```
+  source env/bin/activate
+  ```
+
+### Installing Dependencies
 
 1. Clone the repository:
-- git clone https://github.com/zakirangwala/icloud-photo-manager.git
-- cd icloud-photo-manager
+
+git clone https://github.com/zakirangwala/icloud-photo-manager.git
+cd icloud-photo-manager
+
 
 2. Install the required Python packages:
-- pip install -r requirements.txt
+
+pip install -r requirements.txt
 
 
 ## Usage
@@ -19,10 +45,13 @@ Before running the scripts, you need to install the required dependencies.
 ### Downloading Photos
 
 To download all your photos from iCloud, run:
-- python download-photos.py
+python download-photos.py
+
+
+### Deleting Photos
 
 To delete all your photos from iCloud, run:
-- python delete-photos.py
+python delete-photos.py
 
 
 ## Important Notes
