@@ -10,8 +10,9 @@ Before installing the dependencies, you can set up a virtual environment. This k
 
 1. Create a virtual environment:
 
+```
 python -m venv env
-
+```
 
 2. Activate the virtual environment:
 
@@ -31,28 +32,35 @@ python -m venv env
 
 1. Clone the repository:
 
+```
 git clone https://github.com/zakirangwala/icloud-photo-manager.git
+```
+```
 cd icloud-photo-manager
+```
 
 
 2. Install the required Python packages:
 
+```
 pip install -r requirements.txt
-
+```
 
 ## Usage
 
 ### Downloading Photos
 
 To download all your photos from iCloud, run:
+```
 python download-photos.py
-
+```
 
 ### Deleting Photos
 
 To delete all your photos from iCloud, run:
+```
 python delete-photos.py
-
+```
 
 ## Important Notes
 
